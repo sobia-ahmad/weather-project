@@ -23,7 +23,7 @@ body {
 
 .container {
   background: rgb(10, 138, 167);
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 2em;
   border-radius: 30px;
   width: 100%;

@@ -1,3 +1,6 @@
+// https://api.openweathermap.org/data/2.5/weather?q=$Edinburgh&units=metric&appid=$73b3dc969e9f5735a2989576a34ff684
+// API key: 73b3dc969e9f5735a2989576a34ff684
+
 // Grabbing weather elements
 
 let cityEl = document.querySelector('.city');
@@ -48,20 +51,20 @@ let weather = {
   },
 
   // Searching weather
-  search: function () {
+  searchWeather: function () {
     this.getWeather(document.querySelector('.search-bar').value);
   },
 };
 
 // Events for click and keyup
 document.querySelector('.search-button').addEventListener('click', function () {
-  weather.search();
+  weather.searchWeather();
 });
 
 document.querySelector('.search-bar'),
 document.addEventListener('keyup', function (event) {
     if (event.key === 'Enter') {
-      weather.search();
+      weather.searchWeather();
     }
   });
 
