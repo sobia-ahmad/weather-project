@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: rgb(255, 255, 255);
+  font-size: 120%;
+}
+
+.title {
+  align-items: center;
+  text-align: left
+}
+
+.container {
+  background: rgb(10, 138, 167);
+  color: white;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1em;
+}
+
+.city, span {
+  color: rgb(115, 228, 226);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.search-button, .search-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button {
+  margin: 18px;
+  border-radius: 100px;
+  border: none;
+  height: 44px;
+  width: 44px;
+  outline: none;
+  background: rgb(115, 228, 226);
+  color: white;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  background: rgb(115, 228, 226);
+  color: white;
+  font-family: inherit;
+  font-size: 26px;
+  width: calc(100% - 100px);
+}
+
+button:hover {
+  background: rgb(66, 176, 201);
+}
+
+.description {
+  text-transform: capitalize;
+  margin-left: 8px;
+}
