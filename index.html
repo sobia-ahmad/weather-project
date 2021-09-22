@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Weather App</h1>
+        <div class="search-area">
+          <input type="text" placeholder="Please enter a city..." class="search-bar">
+          <button class="search-button"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="weather loading">
+          <h2 class="city">Current weather in <span class="city-label">Edinburgh</span></h2>
+          <h1 class="temperature">12°C</h1>
+          <div class="flex">
+            <img src="https://openweathermap.org/img/wn/11n.png" alt="weather-icon" class="icon">
+            <div class="description">Cloudy</div>
+          </div>
+          <div class="country-code">Country: GB</div>
+          <div class="humidity">Humidity: 35%</div>
+          <div class="clouds">Clouds: 40</div>
+          <div class="latitude">Latitude: 55.9521</div>
+          <div class="longitude">Longitude: -3.1965</div>
+        </div>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
